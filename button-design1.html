@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: white;
+}
+a {
+    border: 1px solid #df2826;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 3px 30px;
+    text-decoration: none;
+    //float: right;
+}
+.btn_hover:hover:before, .btn_hover:focus:before, .btn_hover:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.btn_hover:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2098d1;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+       background: #DA2725 !important;
+}
+.btn_hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #e1e1e1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+      background: transparent !important;
+}
+a{
+color:black;
+}
+</style>
+</head>
+<body>
+<a href="/web/20211211145018/https://njsfiles.com/details-page?name=Paper%20Lever%20Arch%20Files" class="btn_hover">More</a>
+</body>
+</html>
